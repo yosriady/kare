@@ -2,6 +2,8 @@
 
 Function currying in Elixir.
 
+![Kare](http://i.imgur.com/KWquSBD.jpg)
+
 ## Installation
 
   Add kare to your list of dependencies in `mix.exs`:

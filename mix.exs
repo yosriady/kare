@@ -29,7 +29,11 @@ defmodule Kare.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:ex_doc, "~> 0.13", only: :dev},
+      {:earmark, "~> 1.0.1", only: :dev},
+      {:credo, "~> 0.4", only: [:dev, :test]}
+    ]
   end
 
   defp description do

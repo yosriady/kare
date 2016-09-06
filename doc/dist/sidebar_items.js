@@ -1,0 +1,1 @@
+sidebarNodes={"exceptions":[],"extras":[{"id":"api-reference","title":"API Reference","headers":[]}],"modules":[{"id":"Kare","title":"Kare","functions":[{"id":"curry/1","anchor":"curry/1"}]}],"protocols":[]}
