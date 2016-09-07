@@ -6,11 +6,12 @@ Function currying in Elixir.
 
 ## Installation
 
-  Add kare to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:kare, "~> 1.0.0"}]
-        end
+Add kare to your list of dependencies in `mix.exs`:
+```elixir
+def deps do
+  [{:kare, "~> 1.0.0"}]
+end
+```
 
 ## Tutorial
 - [Function currying in Elixir](http://blog.patrikstorm.com/function-currying-in-elixir)
@@ -19,16 +20,15 @@ Function currying in Elixir.
 
 > curried function with multiple arguments
 
-```
+```elixir
 iex> curried = Kare.curry(fn x, y, z -> x + y * z end)
 iex> curried.(1).(2).(3)
 7
 ```
 
-
 > curried functions in pipe chain
 
-```
+```elixir
 replace = (fn what ->
   Kare.curry(fn replacement, word ->
     Regex.replace(what, word, replacement)
