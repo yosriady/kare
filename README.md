@@ -12,6 +12,8 @@ Function currying in Elixir.
           [{:kare, "~> 1.0.0"}]
         end
 
+## Tutorial
+- [Function currying in Elixir](http://blog.patrikstorm.com/function-currying-in-elixir)
 
 ## Usage
 
